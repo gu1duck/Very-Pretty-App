@@ -9,9 +9,8 @@
 import UIKit
 
 extension UIColor {
-
-    class func myBlueColor() -> UIColor {
-        return UIColor(red: 14.0/255.0, green: 177.0/255.0, blue: 210.0/255.0, alpha: 1.0)
+    static func myBlue() -> UIColor {
+        return UIColor(red: 103.0/255.0, green: 231.0/255.0, blue: 231.0/255.0, alpha: 1.0)
     }
 }
 

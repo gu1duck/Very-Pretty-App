@@ -24,14 +24,13 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Zootopia JPosters.com.ar.otf</string>
-		<string>Star_Jedi_Rounded.ttf</string>
-	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>HARRP.TTF</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

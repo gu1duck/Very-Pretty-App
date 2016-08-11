@@ -28,22 +28,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
 
-        let proxy = UIView.appearance()
+        let viewProxy = UIView.appearance()
+        viewProxy.tintColor = UIColor.cyanColor()
 
-        proxy.tintColor = .myBlueColor()
-
-        UINavigationBar.appearance().barTintColor =
-            UIColor.redColor()
-
-        let barButtonProxy = UIBarButtonItem.appearance()
-
-        let barButtonTextAttributes = [
-            NSForegroundColorAttributeName: UIColor.greenColor(),
-        ]
-
-        barButtonProxy.setTitleTextAttributes(barButtonTextAttributes, forState: .Normal)
-
-
+        let navBarProxy = UINavigationBar.appearance()
+        navBarProxy.barTintColor = UIColor.blackColor()
 
         return true
     }

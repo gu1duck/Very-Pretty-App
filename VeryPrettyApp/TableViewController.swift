@@ -66,8 +66,8 @@ extension TableViewController {
                 return UITableViewCell(style: .Subtitle, reuseIdentifier: identifier)
             }
         }()
+        cell.textLabel?.font = UIFont.harryPotterFont(16.0)
         cell.textLabel?.text = "Cell \(indexPath.row)"
-        cell.textLabel?.font = UIFont.zootopiaFontOfSize(14.0)
         cell.detailTextLabel?.text = "details"
         cell.detailTextLabel?.textColor = UIColor.grayColor()
         cell.accessoryType = .DetailButton

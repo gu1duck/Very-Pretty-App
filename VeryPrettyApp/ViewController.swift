@@ -21,13 +21,13 @@ class ViewController: UIViewController {
     }
 
     func setUp() {
-        self.title = "Another Awesome View"
+        self.title = "Another View"
         self.tabBarItem = UITabBarItem(title: "Another View", image: UIImage(named: "personIcon"), selectedImage: nil)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.myBlueColor()
+        self.view.backgroundColor = .blueColor()
     }
 
     override func preferredStatusBarStyle() -> UIStatusBarStyle {

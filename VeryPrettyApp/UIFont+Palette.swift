@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIFont {
-    class func zootopiaFontOfSize(size:CGFloat) -> UIFont {
-        return UIFont(name: "ZootopiaJPosters.com.ar", size: size)!
+    static func harryPotterFont(size: CGFloat) -> UIFont {
+        return UIFont(name: "Harry Potter", size: size)!
     }
 }
