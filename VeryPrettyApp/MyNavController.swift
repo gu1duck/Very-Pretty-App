@@ -9,7 +9,12 @@
 import UIKit
 
 class MyNavController: UINavigationController {
-    override func childViewControllerForStatusBarStyle() -> UIViewController? {
-        return self.topViewController
+//    override var preferredStatusBarStyle: UIStatusBarStyle {
+//        return .lightContent
+//    }
+
+    override var childViewControllerForStatusBarStyle: UIViewController? {
+        return topViewController
     }
+
 }

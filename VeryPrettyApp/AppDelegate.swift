@@ -13,9 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-        let tableViewController = TableViewController(style: .Plain)
+        let tableViewController = TableViewController(style: .plain)
         let navigationController1 = MyNavController(rootViewController: tableViewController)
 
         let viewController = ViewController()
@@ -24,15 +24,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = [navigationController1, navigationController2]
 
-        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
 
-        let viewProxy = UIView.appearance()
-        viewProxy.tintColor = UIColor.cyanColor()
-
-        let navBarProxy = UINavigationBar.appearance()
-        navBarProxy.barTintColor = UIColor.blackColor()
+        UIView.appearance().tintColor = .orange
+        UINavigationBar.appearance().barTintColor = .black
 
         return true
     }

@@ -2,14 +2,14 @@
 //  UIFont+Palette.swift
 //  VeryPrettyApp
 //
-//  Created by Jeremy Petter on 2016-06-17.
+//  Created by Jeremy Petter on 2016-10-20.
 //  Copyright © 2016 JeremyPetter. All rights reserved.
 //
 
 import UIKit
 
 extension UIFont {
-    static func harryPotterFont(size: CGFloat) -> UIFont {
-        return UIFont(name: "Harry Potter", size: size)!
+    static func jer_STFont(size: CGFloat) -> UIFont {
+        return UIFont(name: "AGBenguiatCyrBook", size: size)!
     }
 }

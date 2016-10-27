@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         setUp()
     }
@@ -27,11 +27,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .blueColor()
+        self.view.backgroundColor = .blue
     }
 
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return .Default
+    override func viewDidAppear(_ animated: Bool) {
+        
     }
+
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .default
+    }
+
 }
 

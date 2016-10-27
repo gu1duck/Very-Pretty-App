@@ -13,9 +13,9 @@
 		354888901CC574B60027B96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3548888E1CC574B60027B96F /* LaunchScreen.storyboard */; };
 		354888981CC5898B0027B96F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354888971CC5898B0027B96F /* TableViewController.swift */; };
 		356C7AF71CCAE13D007F0053 /* MyNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C7AF61CCAE13D007F0053 /* MyNavController.swift */; };
-		359193341D14ADEB003BC9BE /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359193331D14ADEB003BC9BE /* UIColor+Palette.swift */; };
-		359193371D14B125003BC9BE /* UIFont+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359193361D14B125003BC9BE /* UIFont+Palette.swift */; };
-		35AA48281D5D27B900E71892 /* HARRP.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 35AA48271D5D27B900E71892 /* HARRP.TTF */; };
+		35A107E51DB97AA300D7FE5E /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A107E41DB97AA300D7FE5E /* UIColor+Palette.swift */; };
+		35A107E71DB97ED800D7FE5E /* Benguiat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35A107E61DB97ED800D7FE5E /* Benguiat.ttf */; };
+		35A107E91DB97F1C00D7FE5E /* UIFont+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A107E81DB97F1C00D7FE5E /* UIFont+Palette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		354888911CC574B60027B96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		354888971CC5898B0027B96F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		356C7AF61CCAE13D007F0053 /* MyNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavController.swift; sourceTree = "<group>"; };
-		359193331D14ADEB003BC9BE /* UIColor+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
-		359193361D14B125003BC9BE /* UIFont+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Palette.swift"; sourceTree = "<group>"; };
-		35AA48271D5D27B900E71892 /* HARRP.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = HARRP.TTF; sourceTree = "<group>"; };
+		35A107E41DB97AA300D7FE5E /* UIColor+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
+		35A107E61DB97ED800D7FE5E /* Benguiat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Benguiat.ttf; sourceTree = "<group>"; };
+		35A107E81DB97F1C00D7FE5E /* UIFont+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Palette.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +73,9 @@
 		354888991CC5AB2E0027B96F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				356C7AF61CCAE13D007F0053 /* MyNavController.swift */,
 				354888971CC5898B0027B96F /* TableViewController.swift */,
 				354888871CC574B60027B96F /* ViewController.swift */,
-				356C7AF61CCAE13D007F0053 /* MyNavController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 		3548889B1CC5AB7B0027B96F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				35AA48271D5D27B900E71892 /* HARRP.TTF */,
+				35A107E61DB97ED800D7FE5E /* Benguiat.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -102,8 +102,8 @@
 		354888A01CC5ACC20027B96F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				359193331D14ADEB003BC9BE /* UIColor+Palette.swift */,
-				359193361D14B125003BC9BE /* UIFont+Palette.swift */,
+				35A107E41DB97AA300D7FE5E /* UIColor+Palette.swift */,
+				35A107E81DB97F1C00D7FE5E /* UIFont+Palette.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -140,6 +140,7 @@
 				TargetAttributes = {
 					354888811CC574B60027B96F = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -166,8 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A107E71DB97ED800D7FE5E /* Benguiat.ttf in Resources */,
 				354888901CC574B60027B96F /* LaunchScreen.storyboard in Resources */,
-				35AA48281D5D27B900E71892 /* HARRP.TTF in Resources */,
 				3548888D1CC574B60027B96F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,10 +182,10 @@
 			files = (
 				356C7AF71CCAE13D007F0053 /* MyNavController.swift in Sources */,
 				354888881CC574B60027B96F /* ViewController.swift in Sources */,
-				359193371D14B125003BC9BE /* UIFont+Palette.swift in Sources */,
+				35A107E91DB97F1C00D7FE5E /* UIFont+Palette.swift in Sources */,
 				354888981CC5898B0027B96F /* TableViewController.swift in Sources */,
 				354888861CC574B60027B96F /* AppDelegate.swift in Sources */,
-				359193341D14ADEB003BC9BE /* UIColor+Palette.swift in Sources */,
+				35A107E51DB97AA300D7FE5E /* UIColor+Palette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +296,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JeremyPetter.VeryPrettyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -306,6 +308,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JeremyPetter.VeryPrettyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
