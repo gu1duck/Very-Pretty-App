@@ -31,11 +31,7 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        
-    }
-
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .default
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
 
 }

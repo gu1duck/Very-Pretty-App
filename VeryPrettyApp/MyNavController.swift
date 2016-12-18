@@ -9,6 +9,7 @@
 import UIKit
 
 class MyNavController: UINavigationController {
+
 //    override var preferredStatusBarStyle: UIStatusBarStyle {
 //        return .lightContent
 //    }
@@ -16,5 +17,4 @@ class MyNavController: UINavigationController {
     override var childViewControllerForStatusBarStyle: UIViewController? {
         return topViewController
     }
-
 }

@@ -23,14 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = [navigationController1, navigationController2]
+        // tabBarController.tabBar.tintColor
 
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
 
-        UIView.appearance().tintColor = .orange
-        UINavigationBar.appearance().barTintColor = .black
-
+//        UIView.appearance().tintColor = UIColor.myGreenColor
+        UIView.appearance(whenContainedInInstancesOf: [UITableViewCell.self]).tintColor = UIColor.myGreenColor
         return true
     }
 }

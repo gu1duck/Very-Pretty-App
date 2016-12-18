@@ -32,9 +32,9 @@ class TableViewController: UITableViewController {
         present(alertController, animated: true, completion: nil)
     }
 
-//    override var preferredStatusBarStyle : UIStatusBarStyle {
-//        return .lightContent
-//    }
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
 }
 
@@ -45,16 +45,10 @@ private extension TableViewController {
         self.title = "Super Awesome Table View"
         let rightBarButton = UIBarButtonItem(title: "Save", style: .done, target: self, action:#selector(showAlert))
 
-//        rightBarButton.tintColor = .green
-
-        let attributes = [
-            NSFontAttributeName: UIFont.jer_STFont(size: 18)
-        ]
-
-//        let attributedSting = NSAttributedString(string: "blah", attributes: attributes)
-
-        rightBarButton.setTitleTextAttributes(attributes, for: .normal)
         self.navigationItem.rightBarButtonItem = rightBarButton
+
+        self.navigationItem.rightBarButtonItem?.setTitleTextAttributes([NSFontAttributeName: UIFont.pulpFictionFont(size: 24)], for: .normal)
+
         self.tabBarItem = UITabBarItem(title: "Table View", image: UIImage(named: "smiley"), selectedImage: nil)
 
     }
@@ -77,11 +71,9 @@ extension TableViewController {
             }
         }()
         cell.textLabel?.text = "Cell \((indexPath as NSIndexPath).row)"
-        cell.textLabel?.textColor = .red
-        cell.textLabel?.font = UIFont.jer_STFont(size: 18.0)
+        cell.textLabel?.font = UIFont.pulpFictionFont(size: 18)
         cell.detailTextLabel?.text = "details"
-        cell.detailTextLabel?.textColor = .jer_green
-        cell.detailTextLabel?.textColor = UIColor.gray
+        cell.detailTextLabel?.textColor = UIColor.myGreenColor
         cell.accessoryType = .detailButton
 
         return cell

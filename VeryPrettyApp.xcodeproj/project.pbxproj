@@ -14,8 +14,9 @@
 		354888981CC5898B0027B96F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354888971CC5898B0027B96F /* TableViewController.swift */; };
 		356C7AF71CCAE13D007F0053 /* MyNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C7AF61CCAE13D007F0053 /* MyNavController.swift */; };
 		35A107E51DB97AA300D7FE5E /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A107E41DB97AA300D7FE5E /* UIColor+Palette.swift */; };
-		35A107E71DB97ED800D7FE5E /* Benguiat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35A107E61DB97ED800D7FE5E /* Benguiat.ttf */; };
 		35A107E91DB97F1C00D7FE5E /* UIFont+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A107E81DB97F1C00D7FE5E /* UIFont+Palette.swift */; };
+		3FE2D17B1E04B2A200CEC2EB /* Pulp Fiction Italic M54.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FE2D1791E04B2A200CEC2EB /* Pulp Fiction Italic M54.ttf */; };
+		3FE2D17C1E04B2A200CEC2EB /* Pulp Fiction M54.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FE2D17A1E04B2A200CEC2EB /* Pulp Fiction M54.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		354888971CC5898B0027B96F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		356C7AF61CCAE13D007F0053 /* MyNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavController.swift; sourceTree = "<group>"; };
 		35A107E41DB97AA300D7FE5E /* UIColor+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
-		35A107E61DB97ED800D7FE5E /* Benguiat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Benguiat.ttf; sourceTree = "<group>"; };
 		35A107E81DB97F1C00D7FE5E /* UIFont+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Palette.swift"; sourceTree = "<group>"; };
+		3FE2D1791E04B2A200CEC2EB /* Pulp Fiction Italic M54.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pulp Fiction Italic M54.ttf"; sourceTree = "<group>"; };
+		3FE2D17A1E04B2A200CEC2EB /* Pulp Fiction M54.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pulp Fiction M54.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,8 @@
 		3548889B1CC5AB7B0027B96F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				35A107E61DB97ED800D7FE5E /* Benguiat.ttf */,
+				3FE2D1791E04B2A200CEC2EB /* Pulp Fiction Italic M54.ttf */,
+				3FE2D17A1E04B2A200CEC2EB /* Pulp Fiction M54.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -167,9 +170,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A107E71DB97ED800D7FE5E /* Benguiat.ttf in Resources */,
 				354888901CC574B60027B96F /* LaunchScreen.storyboard in Resources */,
+				3FE2D17B1E04B2A200CEC2EB /* Pulp Fiction Italic M54.ttf in Resources */,
 				3548888D1CC574B60027B96F /* Assets.xcassets in Resources */,
+				3FE2D17C1E04B2A200CEC2EB /* Pulp Fiction M54.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

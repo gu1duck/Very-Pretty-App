@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIFont {
-    static func jer_STFont(size: CGFloat) -> UIFont {
-        return UIFont(name: "AGBenguiatCyrBook", size: size)!
+    static func pulpFictionFont(size: CGFloat) -> UIFont {
+        return UIFont(name: "PulpFictionM54", size: size)!
     }
 }
